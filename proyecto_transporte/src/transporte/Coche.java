@@ -13,19 +13,9 @@ public class Coche extends Vehiculo implements ConMotor{
     }
     
 
-
-    /**
-     * Método getter creado en la clase Vehiculo y extendido en la clase Coche
-     * @return velocidadMaxima
-     */
-
-    @Override
-    public String getVelocidadMaxima() {
-        return super.getVelocidadMaxima();
-    }
-
-
     
+
+
     /**
      * Método declarado en la clase Vehiculo y definido en la clase Coche
      * Muestra mensaje con la velocidadMaxima
@@ -36,6 +26,9 @@ public class Coche extends Vehiculo implements ConMotor{
 
     }
 
+
+
+    
 
     /**
      * Método declarado en la interfaz ConMotor y definido en la clase Coche
