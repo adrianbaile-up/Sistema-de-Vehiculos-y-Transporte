@@ -9,7 +9,7 @@ public final class Avion extends Vehiculo implements ConMotor {
      * @param velocidadMaxima
      */
 
-    public Avion(String velocidadMaxima){
+    public Avion(int velocidadMaxima){
         this.velocidadMaxima=velocidadMaxima;
     }
 
@@ -22,10 +22,10 @@ public final class Avion extends Vehiculo implements ConMotor {
      * Muestra mensaje con la velocidadMaxima
      */
 
+    @Override
     public void describir(){
-        System.out.println("Soy un avión que vuela a "+ getVelocidadMaxima());
+        System.out.println("Soy un avión que vuela a "+ getVelocidadMaxima()+" km/h");
     };
-
 
 
 
@@ -34,6 +34,7 @@ public final class Avion extends Vehiculo implements ConMotor {
      * Método declarado en la interfaz ConMotor y definido en la clase Avion
      */
 
+    @Override
     public void encenderMotor(){
         System.out.println("El motor del avión está encendido.");
     }
