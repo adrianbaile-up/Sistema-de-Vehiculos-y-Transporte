@@ -15,7 +15,7 @@ public static void main(String[] args) {
 
 
 
-    Coche coche= new Coche("180 km/h");
+    Coche coche= new Coche(180);
 
     coche.arrancar();
     coche.encenderMotor();
@@ -25,7 +25,7 @@ public static void main(String[] args) {
 
 
 
-    Bicicleta bicicleta=new Bicicleta("30 km/h");
+    Bicicleta bicicleta=new Bicicleta(30);
 
     bicicleta.arrancar();
     bicicleta.usarFuerzaHumana();
@@ -35,7 +35,7 @@ public static void main(String[] args) {
 
 
 
-    Barco barco=new Barco("50 km/h");
+    Barco barco=new Barco(50);
 
     barco.arrancar();
     barco.encenderMotor();
@@ -44,7 +44,7 @@ public static void main(String[] args) {
     System.out.println("\n");
 
 
-    Avion avion=new Avion("900 km/h");
+    Avion avion=new Avion(900);
 
     avion.arrancar();
     avion.encenderMotor();
