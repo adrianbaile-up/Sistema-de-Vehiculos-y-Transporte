@@ -6,7 +6,7 @@ public abstract class Vehiculo {
      * Atributos
      */
 
-    protected String velocidadMaxima;
+    protected int velocidadMaxima;
 
 
     /**
@@ -31,7 +31,7 @@ public abstract class Vehiculo {
      * @return velocidadMaxima
      */
 
-    public String getVelocidadMaxima(){
+    public int getVelocidadMaxima(){
 
         return this.velocidadMaxima;
     };
@@ -42,7 +42,7 @@ public abstract class Vehiculo {
      * Método setter para establecer velocidadMaxima
      */
 
-    public void setVelocidadMaxima(String velocidadMaxima){
+    public void setVelocidadMaxima(int velocidadMaxima){
 
         this.velocidadMaxima=velocidadMaxima;
     }
