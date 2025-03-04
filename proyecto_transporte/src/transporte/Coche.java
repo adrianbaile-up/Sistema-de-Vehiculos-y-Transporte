@@ -8,7 +8,7 @@ public class Coche extends Vehiculo implements ConMotor{
      * @param velocidadMaxima
      */
 
-    public Coche(String velocidadMaxima){
+    public Coche(int velocidadMaxima){
         this.velocidadMaxima=velocidadMaxima;
     }
     
@@ -21,8 +21,9 @@ public class Coche extends Vehiculo implements ConMotor{
      * Muestra mensaje con la velocidadMaxima
      */
 
+    @Override
     public void describir(){
-        System.out.println("Soy un coche que puede alcanzar "+ getVelocidadMaxima());
+        System.out.println("Soy un coche que puede alcanzar "+ getVelocidadMaxima()+" km/h");
 
     }
 
@@ -34,6 +35,7 @@ public class Coche extends Vehiculo implements ConMotor{
      * Método declarado en la interfaz ConMotor y definido en la clase Coche
      */
 
+    @Override
     public void encenderMotor(){
         System.out.println("El motor del coche está encendido.");
     }
