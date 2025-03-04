@@ -8,7 +8,7 @@ public class Bicicleta extends Vehiculo implements SinMotor{
      * @param velocidadMaxima
      */
 
-    public Bicicleta(String velocidadMaxima){
+    public Bicicleta(int velocidadMaxima){
         this.velocidadMaxima=velocidadMaxima;
     }
 
@@ -20,8 +20,9 @@ public class Bicicleta extends Vehiculo implements SinMotor{
      * Muestra mensaje con la velocidadMaxima
      */
 
+    @Override
     public void describir(){
-        System.out.println("Soy una bicicleta con una velocidad máxima de " + getVelocidadMaxima());
+        System.out.println("Soy una bicicleta con una velocidad máxima de " + getVelocidadMaxima() + " km/h");
 
     }
 
@@ -33,6 +34,7 @@ public class Bicicleta extends Vehiculo implements SinMotor{
      * Metodo declarado en la interfaz SinMotor y definido en esta clase
      */
 
+    @Override
     public void usarFuerzaHumana(){
         System.out.println("Usando fuerza humana para mover la bicicleta.");
     }
