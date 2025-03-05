@@ -5,12 +5,12 @@ public final class Avion extends Vehiculo implements ConMotor {
 
 
     /**
-     * Constructor que recibe la velocidadMaxima (atributo heredado de Vehiculo)
+     * Constructor heredado de la clase base (Vehiculo)
      * @param velocidadMaxima
      */
 
     public Avion(int velocidadMaxima){
-        this.velocidadMaxima=velocidadMaxima;
+        super(velocidadMaxima);
     }
 
 

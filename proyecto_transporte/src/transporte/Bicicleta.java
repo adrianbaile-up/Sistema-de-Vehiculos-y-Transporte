@@ -4,12 +4,12 @@ public class Bicicleta extends Vehiculo implements SinMotor{
 
 
     /**
-     * Constructor que recibe la velocidadMaxima (atributo heredado de Vehiculo)
+     * Constructor heredado de la clase base (Vehiculo)
      * @param velocidadMaxima
      */
 
     public Bicicleta(int velocidadMaxima){
-        this.velocidadMaxima=velocidadMaxima;
+        super(velocidadMaxima);
     }
 
 
