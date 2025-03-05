@@ -82,4 +82,4 @@ repositorio**.
 `SinMotor`).
 **Clases finales (`final`)** con `Avion`, evitando su herencia.✅
 **Importación de clases desde otro paquete (`import transporte.*;`)**.✅
-**Creación de un método `Main`** para probar las clases del sistema.
+**Creación de un método `Main`** para probar las clases del sistema
