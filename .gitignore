@@ -1,6 +1,10 @@
 # VsCode
 .vscode/
 
+# Archivos Metadatos MacOS
+.DS_Store
+
+
 # Compiled class file
 *.class
 
