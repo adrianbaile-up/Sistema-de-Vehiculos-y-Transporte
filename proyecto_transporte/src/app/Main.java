@@ -14,7 +14,7 @@ public class Main {
 public static void main(String[] args) {
 
 
-
+    //Creación objeto clase Coche
     Coche coche= new Coche(180);
 
     coche.arrancar();
@@ -25,6 +25,7 @@ public static void main(String[] args) {
 
 
 
+    //Creación objeto clase Bicicleta
     Bicicleta bicicleta=new Bicicleta(30);
 
     bicicleta.arrancar();
@@ -35,6 +36,7 @@ public static void main(String[] args) {
 
 
 
+    //Creación objeto clase Barco
     Barco barco=new Barco(50);
 
     barco.arrancar();
@@ -43,7 +45,9 @@ public static void main(String[] args) {
 
     System.out.println("\n");
 
+    
 
+    //Creación objeto clase Avion
     Avion avion=new Avion(900);
 
     avion.arrancar();
