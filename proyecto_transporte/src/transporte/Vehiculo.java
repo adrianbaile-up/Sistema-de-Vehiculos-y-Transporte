@@ -10,6 +10,16 @@ public abstract class Vehiculo {
 
 
     /**
+     * Constructor que se extenderá a las subclases que la hereden
+     * @param velocidadMaxima
+     */
+
+    public Vehiculo(int velocidadMaxima){
+        this.velocidadMaxima=velocidadMaxima;
+    }
+
+
+    /**
      * Método para arrancar el vehiculo mostrando un mensaje
      */
 
